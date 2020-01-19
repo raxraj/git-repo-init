@@ -124,6 +124,9 @@
     "cli",
     "git-cli"
   ],
+  "bin":{
+    "git-repo-init" : "index.js"
+  },
   "author": "raxraj",
   "license": "MIT",
   "bugs": {
