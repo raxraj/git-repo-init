@@ -10,7 +10,7 @@ const repo = require('./lib/repo')
 
 clear();
 
-console.log(chalk.yellow(figlet.textSync('GINIT', {horizontalLayout: "full"})))
+console.log(chalk.yellow(figlet.textSync('RaxRaj gri', {horizontalLayout: "full"})))
 
 if(files.directoryExists('.git')){
     console.log(chalk.red('Already a git Repo. Kindly remove the .git folder!'));
