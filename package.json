@@ -1,6 +1,6 @@
 {
   "name": "git-repo-init",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "The NPM package for the git initialisation!",
   "main": "index.js",
   "directories": {
@@ -124,8 +124,8 @@
     "cli",
     "git-cli"
   ],
-  "bin":{
-    "git-repo-init" : "index.js"
+  "bin": {
+    "git-repo-init": "index.js"
   },
   "author": "raxraj",
   "license": "MIT",
