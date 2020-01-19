@@ -3,12 +3,16 @@
 const chalk = require('chalk')
 const clear = require('clear')
 const figlet = require('figlet')
+const updateNotifier = require('update-notifier')
 
 const files = require('./lib/file')
 const github = require('./lib/github');
 const repo = require('./lib/repo')
+const pkg = require('./package.json')
 
 clear();
+
+updateNotifier({pkg}).notify();
 
 console.log(chalk.cyan(figlet.textSync('G-R-I', {horizontalLayout: "full"})))
 
