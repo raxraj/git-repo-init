@@ -20,7 +20,7 @@ This package is provided in these module formats:
 Just Simply Run the following Command
 
 ```sh
-git-remote-init
+git-repo-init
 ```
 
 
