@@ -1,6 +1,6 @@
 {
   "name": "git-repo-init",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "description": "The NPM package for the git initialisation!",
   "main": "index.js",
   "directories": {
