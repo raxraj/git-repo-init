@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "dependencies": {
-    "@octokit/rest": "^16.37.0",
+    "@octokit/rest": "^16.38.2",
     "ansi-escapes": "^4.3.0",
     "ansi-regex": "^5.0.0",
     "ansi-styles": "^4.2.1",
@@ -17,7 +17,7 @@
     "chalk": "^3.0.0",
     "chardet": "^0.7.0",
     "clear": "^0.1.0",
-    "cli-color": "^0.3.2",
+    "cli-color": "^0.3.3",
     "cli-cursor": "^3.1.0",
     "cli-width": "^2.2.0",
     "clui": "^0.3.6",
@@ -89,7 +89,7 @@
     "shebang-command": "^1.2.0",
     "shebang-regex": "^1.0.0",
     "signal-exit": "^3.0.2",
-    "simple-git": "^1.129.0",
+    "simple-git": "^1.130.0",
     "string-width": "^4.2.0",
     "strip-ansi": "^5.2.0",
     "strip-eof": "^1.0.0",

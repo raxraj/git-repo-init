@@ -12,7 +12,11 @@ const pkg = require('./package.json')
 
 clear();
 
-updateNotifier({pkg}).notify();
+var notifier = updateNotifier({pkg})
+
+notifier.notify();
+
+console.log(chalk.yellow(notifier.update))
 
 console.log(chalk.cyan(figlet.textSync('G-R-I', {horizontalLayout: "full"})))
 
