@@ -3,6 +3,7 @@
 const chalk = require('chalk')
 const clear = require('clear')
 const figlet = require('figlet')
+var fs  = require('fs')
 const updateNotifier = require('update-notifier')
 
 const files = require('./lib/file')
@@ -12,18 +13,13 @@ const pkg = require('./package.json')
 
 clear();
 
-var notifier = updateNotifier({pkg})
+var notifier = updateNotifier({ pkg : pkg})
 
 notifier.notify();
 
-console.log(chalk.yellow(notifier.update))
 
-console.log(chalk.cyan(figlet.textSync('G-R-I', {horizontalLayout: "full"})))
+console.log(chalk.cyan(figlet.textSync('GITHUB', {horizontalLayout: "full"})))
 
-if(files.directoryExists('.git')){
-    console.log(chalk.red('Already a git Repo. Kindly remove the .git folder!'));
-    process.exit()
-}
 
 const getGithubToken = async()=>{
   let token = github.getStoredGithubToken();
@@ -37,6 +33,10 @@ const getGithubToken = async()=>{
 
 const run = async () => {
   try {
+    if(files.directoryExists('.git')){
+        console.log(chalk.red('Already a git Repo.'));
+        await repo.removeCurrentRepo();
+    }
     const token = await getGithubToken();
     github.githubAuth(token)
 
