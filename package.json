@@ -1,6 +1,6 @@
 {
   "name": "git-repo-init",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "The NPM package for the git initialisation!",
   "main": "index.js",
   "directories": {
@@ -112,8 +112,7 @@
     "xdg-basedir": "^4.0.0"
   },
   "devDependencies": {},
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/raxraj/git-repo-init.git"
