@@ -12,7 +12,6 @@
     "ansi-regex": "^5.0.0",
     "ansi-styles": "^4.2.1",
     "atob-lite": "^2.0.0",
-    "bcrypt": "^5.0.1",
     "before-after-hook": "^2.1.0",
     "btoa-lite": "^1.0.0",
     "chalk": "^3.0.0",
