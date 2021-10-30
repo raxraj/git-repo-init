@@ -91,7 +91,7 @@
     "signal-exit": "^3.0.2",
     "simple-git": "^1.131.0",
     "string-width": "^4.2.0",
-    "strip-ansi": "^5.2.0",
+    "strip-ansi": "^7.0.1",
     "strip-eof": "^1.0.0",
     "supports-color": "^7.1.0",
     "through": "^2.3.8",
@@ -111,7 +111,6 @@
     "write-file-atomic": "^3.0.1",
     "xdg-basedir": "^4.0.0"
   },
-  "devDependencies": {},
   "scripts": {},
   "repository": {
     "type": "git",
