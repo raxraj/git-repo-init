@@ -73,7 +73,7 @@
     "mute-stream": "^0.0.8",
     "next-tick": "^1.1.0",
     "nice-try": "^1.0.5",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^3.1.1",
     "npm-run-path": "^2.0.2",
     "octokit-pagination-methods": "^1.1.0",
     "once": "^1.4.0",
